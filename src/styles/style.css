@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    background-color: #232121;
+    color: white;
+}
+/* Utilitaire */
+.color-primary{
+    color: #232121;
+}
+.color-secondary{
+    color: #FEC022;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+
+.font-style-italic{
+    font-style: italic;
+}
+.p-40{
+    padding: 40px;
+}
+.f-size-40{
+    font-size: 40px;
+}
+.f-size-24{
+    font-size: 24px;
+}
+.text-align-justify{
+    text-align: justify;
+}
+
+/*  */
+/* Header */
+.header__img img{
+    width: 200px;
+    position: absolute;
+    top: -24px;
+    right: -25px;
+    height: 302px;
+    border-radius: 25px;
+}
+.header__img{
+    width: 30%;
+    position: relative;
+}
+.header__img--background{
+    height: 302px;
+    width: 200px;
+    background: #FEC022;
+    position: absolute;
+    top: 25px;
+    border-radius: 25px;
+}
+.header__p{
+    width: 40%;
+}
+.header__presentation{
+    margin-top: 25px;
+}
+h1{
+    font-size: 40px;
+}
+/*  */
