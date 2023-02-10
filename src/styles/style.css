@@ -1,68 +1,126 @@
-*{
-    margin: 0;
-    background-color: #232121;
-    color: white;
+* {
+   margin: 0;
+   background-color: #232121;
+   color: white;
 }
 /* Utilitaire */
-.color-primary{
-    color: #232121;
+.color-primary {
+   color: #232121;
 }
-.color-secondary{
-    color: #FEC022;
+.color-secondary {
+   color: #fec022;
 }
-
-.d-flex{
-    display: flex;
+.background {
+   background-color: #2f2e2e;
 }
-.justify-content-center{
-    justify-content: center;
+.d-flex {
+   display: flex;
 }
-
-.font-style-italic{
-    font-style: italic;
+.justify-content-center {
+   justify-content: center;
 }
-.p-40{
-    padding: 40px;
+.justify-content-around {
+   justify-content: space-around;
 }
-.f-size-40{
-    font-size: 40px;
+.justify-content-evenly {
+   justify-content: space-evenly;
 }
-.f-size-24{
-    font-size: 24px;
+.col-flex {
+   flex-direction: column;
 }
-.text-align-justify{
-    text-align: justify;
+.w-50 {
+   width: 50%;
+}
+.font-style-italic {
+   font-style: italic;
+}
+.p-40 {
+   padding: 40px;
+}
+.f-size-40 {
+   font-size: 40px;
+}
+.f-size-24 {
+   font-size: 24px;
+}
+.text-align-center {
+   text-align: center;
+}
+.text-align-justify {
+   text-align: justify;
 }
 
 /*  */
 /* Header */
-.header__img img{
-    width: 200px;
-    position: absolute;
-    top: -24px;
-    right: -25px;
-    height: 302px;
-    border-radius: 25px;
+.header {
+   margin-bottom: 60px;
 }
-.header__img{
-    width: 30%;
-    position: relative;
+.header__img img {
+   width: 200px;
+   position: absolute;
+   top: -24px;
+   right: -25px;
+   height: 302px;
+   border-radius: 25px;
 }
-.header__img--background{
-    height: 302px;
-    width: 200px;
-    background: #FEC022;
-    position: absolute;
-    top: 25px;
-    border-radius: 25px;
+.header__img {
+   width: 30%;
+   position: relative;
 }
-.header__p{
-    width: 40%;
+.header__img--background {
+   height: 302px;
+   width: 200px;
+   background: #fec022;
+   position: absolute;
+   top: 25px;
+   border-radius: 25px;
 }
-.header__presentation{
-    margin-top: 25px;
+.header__p {
+   width: 40%;
 }
-h1{
-    font-size: 40px;
+.header__presentation {
+   margin-top: 25px;
+}
+h1 {
+   font-size: 40px;
+}
+/*  */
+
+/* Dropdown */
+.dropdown__button {
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+   margin-bottom: 15px;
+   width: 100%;
+   border-radius: 25px;
+   background-color: #2f2e2e;
+   border: none;
+   cursor: pointer;
+}
+.dropdown__button div,
+.dropdown__button span {
+   background-color: #2f2e2e;
+   width: 100%;
+   font-size: 28px;
+}
+/*  */
+
+/* About */
+.infos__left p,
+.infos__right p {
+   padding-bottom: 10px;
+}
+.infos__perso > p {
+   margin-bottom: 15px;
+}
+.infos__perso span {
+   color: #a4a2a2;
+}
+.link__title {
+   margin-bottom: 15px;
+}
+.link img {
+   width: 90px;
 }
 /*  */

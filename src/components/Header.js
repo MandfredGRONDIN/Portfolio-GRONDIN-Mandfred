@@ -3,7 +3,7 @@ import Photo from "../assets/Photo.jpg";
 
 export default function Header() {
    return (
-      <div className="header d-flex justify-content-center p-40">
+      <header className="header d-flex justify-content-center p-40">
          <div className="header__img">
             <div className="header__img--background">
                <img src={Photo} alt="Portrait"></img>
@@ -20,6 +20,6 @@ export default function Header() {
                CSS.
             </p>
          </div>
-      </div>
+      </header>
    );
 }
