@@ -5,7 +5,7 @@ import Github from "../assets/Github.png";
 
 export default function About() {
    return (
-      <div className="d-flex justify-content-around">
+      <div className="about d-flex justify-content-around">
          <div className="infos__perso w-50">
             <p className="text-align-center f-size-24">Infos personnelles</p>
             <div className="d-flex justify-content-evenly">
@@ -46,10 +46,10 @@ export default function About() {
                   to={"https://www.linkedin.com/in/mandfredgrondin/"}
                   target="_blank"
                >
-                  <img src={Linkedin} alt="liens vers mon linkedin"></img>
+                  <img src={Linkedin} alt="lien vers mon linkedin"></img>
                </Link>
                <Link to={"https://github.com/MandfredGRONDIN"} target="_blank">
-                  <img src={Github} alt="liens vers mon github"></img>
+                  <img src={Github} alt="lien vers mon github"></img>
                </Link>
             </div>
          </div>

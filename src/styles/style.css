@@ -25,8 +25,17 @@
 .justify-content-evenly {
    justify-content: space-evenly;
 }
+.align-items-center {
+   align-items: center;
+}
 .col-flex {
    flex-direction: column;
+}
+.wrap-flex {
+   flex-wrap: wrap;
+}
+.m-auto {
+   margin: auto;
 }
 .w-50 {
    width: 50%;
@@ -49,7 +58,12 @@
 .text-align-justify {
    text-align: justify;
 }
-
+.position-relative {
+   position: relative;
+}
+.position-absolute {
+   position: absolute;
+}
 /*  */
 /* Header */
 .header {
@@ -96,6 +110,7 @@ h1 {
    border-radius: 25px;
    background-color: #2f2e2e;
    border: none;
+   align-items: baseline;
    cursor: pointer;
 }
 .dropdown__button div,
@@ -123,4 +138,95 @@ h1 {
 .link img {
    width: 90px;
 }
+.about {
+   padding-bottom: 15px;
+}
 /*  */
+.competence canvas {
+   margin: auto;
+   height: 150px;
+   width: 150px;
+}
+.competence {
+   width: 30%;
+   margin: 15px 0 15px 0;
+}
+.competence p {
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+.pie {
+   position: relative;
+}
+.pourcentage {
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+}
+.card__projets {
+   width: 80%;
+}
+.card__projet {
+   width: 34%;
+   margin-bottom: 20px;
+   background-color: #2f2e2e;
+   border-radius: 35px;
+   overflow: hidden;
+}
+.card__projet div {
+   width: 100%;
+   height: 150px;
+   background: white;
+   position: relative;
+}
+.card__projet img {
+   width: 50%;
+   height: 50%;
+   object-fit: contain;
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+   background: white;
+}
+.card__projet span {
+   background-color: #2f2e2e;
+}
+.card__projet span p {
+   padding: 20px;
+   background-color: #2f2e2e;
+}
+.carousel {
+   top: 50%;
+   right: 50%;
+   transform: translate(50%, -50%);
+   height: 100%;
+   width: 100%;
+   max-width: 900px;
+}
+.carousel__img {
+   height: 80%;
+   width: 100%;
+   background: no-repeat;
+   background-color: white;
+   background-size: contain;
+   background-position-x: center;
+}
+/* .carousel__img img {
+   padding: 15px;
+   right: 50%;
+   transform: translate(50%, 0);
+   background: white;
+} */
+.carousel__p {
+   height: 20%;
+}
+.fa-x {
+   position: absolute;
+   z-index: 1;
+   color: black;
+   background: none;
+   right: -15px;
+   top: -20px;
+}

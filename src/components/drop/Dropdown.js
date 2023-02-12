@@ -9,7 +9,6 @@ import ProjetsRealises from "../ProjetsRealises";
 
 export default function DropDown({
    title,
-   props,
    about,
    competences,
    projetsRealises,
@@ -17,7 +16,6 @@ export default function DropDown({
    contact,
 }) {
    const [isOpen, setIsOpen] = useState(false);
-   console.log(props);
 
    return isOpen ? (
       <div>
