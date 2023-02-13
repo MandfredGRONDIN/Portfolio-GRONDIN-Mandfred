@@ -64,6 +64,9 @@
 .position-absolute {
    position: absolute;
 }
+.cursor-pointer {
+   cursor: pointer;
+}
 /*  */
 /* Header */
 .header {
@@ -211,14 +214,9 @@ h1 {
    background: no-repeat;
    background-color: white;
    background-size: contain;
-   background-position-x: center;
+   background-position: center;
 }
-/* .carousel__img img {
-   padding: 15px;
-   right: 50%;
-   transform: translate(50%, 0);
-   background: white;
-} */
+
 .carousel__p {
    height: 20%;
 }
@@ -229,4 +227,19 @@ h1 {
    background: none;
    right: -15px;
    top: -20px;
+}
+
+.arrow {
+   color: black;
+   background: none;
+   top: 50%;
+   transform: translate(0, -50%);
+}
+.left__arrow {
+   left: 20px;
+   z-index: 1;
+}
+.right__arrow {
+   right: 20px;
+   z-index: 1;
 }

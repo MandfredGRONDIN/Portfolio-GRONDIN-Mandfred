@@ -17,7 +17,7 @@ export default function ProjetsRealises() {
             {Projets.map((projet, key) => (
                <div
                   key={key}
-                  className="card__projet"
+                  className="card__projet cursor-pointer"
                   onClick={() => {
                      setData(projet);
                      setIsExpanded(true);
