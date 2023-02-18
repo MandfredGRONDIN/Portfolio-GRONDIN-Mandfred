@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Github from "../../assets/Github.png";
 
+function preloadImages(urls) {
+   return Promise.all(
+      urls.map((url) => {
+         return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.src = url;
+            img.onload = resolve;
+            img.onerror = reject;
+         });
+      })
+   );
+}
+
 export default function Carousel({ projet, expanded }) {
    const [currentIndex, setCurrentIndex] = useState(0);
-
    const slides = projet.pictures;
    const information = projet.information;
+
+   useEffect(() => {
+      preloadImages(slides);
+   }, [slides]);
 
    const goToPrevious = () => {
       const isFirstSlide = currentIndex === 0;
@@ -37,7 +53,7 @@ export default function Carousel({ projet, expanded }) {
                return (
                   index === currentIndex && (
                      <div
-                        className="carousel__img "
+                        className="carousel__img"
                         style={{ backgroundImage: `url(${slide})` }}
                         key={index}
                      ></div>

@@ -26,7 +26,7 @@ export default function DropDown({
          >
             <div>{title}</div>
             <img
-               className="background"
+               className="arrow__drop"
                src={ArrowTop}
                alt="flèche vers le haut"
             ></img>
@@ -46,7 +46,7 @@ export default function DropDown({
          >
             <div>{title}</div>
             <img
-               className="background"
+               className="arrow__drop"
                src={ArrowBot}
                alt="flèche vers le bas"
             />

@@ -5,6 +5,7 @@ import Projet from "../projetEnCours.json";
 export default function ProjetEnCours() {
    const [currentIndex, setCurrentIndex] = useState(0);
    const slides = Projet[0].lien;
+   const infos = Projet[0].information;
 
    const goToPrevious = () => {
       const isFirstSlide = currentIndex === 0;
@@ -43,6 +44,15 @@ export default function ProjetEnCours() {
             <span className="position-absolute">
                {currentIndex + 1}/{slides.length}
             </span>
+         </div>
+         <h3 className="text-align-center">
+            <span className="color-secondary">GROUPOMANIA</span> Création d'un
+            réseau social
+         </h3>
+         <div className="projetEnCour__info text-align-center">
+            {infos.map((info, key) => (
+               <p key={key}>{info}</p>
+            ))}
          </div>
       </div>
    );
