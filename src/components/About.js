@@ -31,7 +31,7 @@ export default function About() {
                      <span>Nationalité :</span> Français
                   </p>
                   <p>
-                     <span>Adresse :</span> France
+                     <span>Adresse :</span> Nîmes
                   </p>
                   <p>
                      <span>Email :</span> mandfred974@hotmail.fr

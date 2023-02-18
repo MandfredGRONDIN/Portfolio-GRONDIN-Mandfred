@@ -6,7 +6,8 @@
 		"pictures": ["https://i.ibb.co/9W3ZBy5/Booki-Pc.png",
 		"https://i.ibb.co/2dCLvKJ/Version-mobile.png"],
 		"description": "Transformer une maquette en site web avec HTML&CSS",
-		"lien": "https://github.com/MandfredGRONDIN/Projet-2-HTML"
+		"lien": "https://github.com/MandfredGRONDIN/Projet-2-HTML",
+		"information":["Implémenter une interface responsive","Intégrer du contenu conformément à une maquette"]
 	},
     {
 		"id": "2",
@@ -23,7 +24,8 @@
 		"https://i.ibb.co/HXkj7wH/Menu-Le-d-lice-des-sens-PC.png",
 		"https://i.ibb.co/SnmgpzK/Menu-Le-d-lice-des-sens.png]"],
 		"description": "Dynamiser une page web avec des animations CSS",
-		"lien": "https://github.com/MandfredGRONDIN/Ohmyfood-Projet"
+		"lien": "https://github.com/MandfredGRONDIN/Ohmyfood-Projet",
+		"information" : ["Mettre en place une structure de navigation pour un site web","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en œuvre des effets CSS graphiques avancés","Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"]
 	},
     {
 		"id": "3",
@@ -36,7 +38,8 @@
 		"https://i.ibb.co/5vGbyR7/Index-Mobile.png",
 		"https://i.ibb.co/LYPZjrf/indexPc.png"],
 		"description": "Optimiser un site web existant",
-		"lien" : "https://github.com/MandfredGRONDIN/Projet-4-OpenClassroom"
+		"lien" : "https://github.com/MandfredGRONDIN/Projet-4-OpenClassroom",
+		"information":["Optimisez la taille et la vitesse d'un site web", "Optimiser le référencement d'un site web","Assurer l'accessibilité d'un site web","Réaliser une recherche des bonnes pratiques en développement web","Ecrire un code HTML et CSS maintenable"]
 	},
     {
 		"id": "4",
@@ -50,7 +53,8 @@
 		"https://i.ibb.co/D8Nnc68/form.png",
 		"https://i.ibb.co/xDR0cpg/regEx.png",
 		"https://i.ibb.co/QPNttVB/validation-name.png"],
-		"description": "Construire un site e-commerce en Javascript"
+		"description": "Construire un site e-commerce en Javascript",
+		"information":["Valider des données issues de sources externes","Interagir avec un web service avec JavaScript","Gérer des évéments JavaScript","Créer un plan de test pour une application"]
 	},
     {
 		"id": "5",
@@ -67,7 +71,8 @@
 		"https://i.ibb.co/bKGwGCB/Multer.png",
 		"https://i.ibb.co/c1pB6yJ/Sauce.png"],
 		"description": "Construire une API sécurisée pour une application d'avis gastronomiques",
-		"lien" : "https://github.com/MandfredGRONDIN/P5-Openclassroom"
+		"lien" : "https://github.com/MandfredGRONDIN/P5-Openclassroom",
+		"information":["Stocker des données de manière sécurisée","Mettre en œuvre des opérations CRUD de manière sécurisée","Implémenter un modèle logique de données conformément à la réglementation"]
 	},
     {
 		"id": "6",
@@ -83,6 +88,7 @@
 		"https://i.ibb.co/ykVT0L4/Home.png",
 		"https://i.ibb.co/zhd9HTq/Home-Mobile.png"],
 		"description": "Créer une application web de location immobilière avec React",
-		"lien" : "https://github.com/MandfredGRONDIN/kasa"
+		"lien" : "https://github.com/MandfredGRONDIN/kasa",
+		"information" : ["Initialiser une application avec Create React App","Configurer la navigation entre les pages de l'application avec React Router","Développer des éléments de l'interface d'un site web grâce à des composants React"]
 	}
 ]

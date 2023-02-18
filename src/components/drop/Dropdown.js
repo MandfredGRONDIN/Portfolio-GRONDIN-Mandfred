@@ -20,7 +20,7 @@ export default function DropDown({
    return isOpen ? (
       <div>
          <button
-            className="dropdown__button"
+            className="dropdown__button actived"
             type="button"
             onClick={() => setIsOpen(false)}
          >
