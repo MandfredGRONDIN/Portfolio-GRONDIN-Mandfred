@@ -11,7 +11,7 @@ export default function Header() {
          </div>
          <div className="header__p">
             <h1 className="color-secondary">GRONDIN Mandfred</h1>
-            <p className="f-size-40">Développeur full stack</p>
+            <p className="header__title f-size-40">Développeur full stack</p>
             <p className="header__presentation text-align-justify font-style-italic f-size-24">
                Je suis un développeur web full stack passionné et autonome, qui
                aime relever des défis et trouver des solutions créatives pour

@@ -89,6 +89,11 @@
    height: 302px;
    border-radius: 25px;
 }
+.header__img img:hover {
+   top: 0;
+   right: 0;
+   transition: 0.7s;
+}
 .header__img {
    width: 30%;
    position: relative;
@@ -311,7 +316,7 @@ h1 {
    font-size: 32px;
    padding: 5%;
    background-color: #2f2e2e;
-   margin-top: -15px;
+   margin-top: -16px;
 }
 .contact div,
 .contact p,
@@ -348,4 +353,138 @@ h1 {
 .projetEnCour h3,
 .projetEnCour__info {
    margin: 15px;
+}
+
+@media screen and (max-width: 992px) {
+   .header {
+      flex-direction: column;
+      align-items: center;
+   }
+   .header__img {
+      height: 302px;
+      width: 200px;
+   }
+   .header__p {
+      width: 80%;
+   }
+   .header__img--background {
+      position: unset;
+   }
+}
+
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   .about {
+      flex-direction: column;
+      align-items: center;
+   }
+   .infos__perso {
+      width: 75%;
+      margin-bottom: 15px;
+   }
+   .competence {
+      width: 40%;
+   }
+   .card__projet {
+      width: 45%;
+   }
+   .carousel {
+      max-width: 700px;
+   }
+   .contact > div {
+      width: 70%;
+   }
+}
+/* Fin tablette */
+
+@media screen and (max-width: 768px) {
+   h1 {
+      font-size: 24px;
+      margin-top: 20px;
+   }
+   .header {
+      margin-bottom: 0;
+   }
+   .header__title {
+      font-size: 22px;
+   }
+   .header__presentation {
+      font-size: 17px;
+      margin-top: 20px;
+   }
+   .dropdown__button div,
+   .dropdown__button span {
+      font-size: 18px;
+   }
+   .about {
+      flex-direction: column;
+   }
+   .about > div {
+      width: 100%;
+   }
+   .infos__perso {
+      width: 100%;
+   }
+   .infos__perso > p,
+   .link__title {
+      font-size: 20px;
+   }
+   .infos__perso > div {
+      font-size: 15px;
+   }
+   .infos__left,
+   .infos__right {
+      padding-left: 10px;
+      width: 50%;
+   }
+   .competence {
+      width: 100%;
+   }
+   .card__projet {
+      width: 100%;
+   }
+   .carousel {
+      position: fixed;
+      width: 85%;
+      height: 85%;
+   }
+   .carousel__img {
+      height: 60vh;
+   }
+   .carousel__p {
+      padding: 0px 0 40px 0px;
+      overflow: scroll;
+   }
+   .carousel__p h3 {
+      font-size: 20px;
+   }
+   .carousel__p-footer {
+      flex-direction: column;
+      align-items: center;
+   }
+   .carousel__img-box {
+      height: 100vh;
+   }
+   .carousel__p-info p {
+      font-size: 15px;
+   }
+   .arrow {
+      font-size: 26px;
+   }
+   .fa-x {
+      font-size: 24px;
+   }
+   .carousel__img-box span {
+      font-size: 18px;
+   }
+   .projetEnCour__carousel-div {
+      height: 60vh;
+   }
+   .contact > div {
+      width: 100%;
+   }
+   .contact__icone p,
+   .contact__info p {
+      font-size: 17px;
+   }
 }
