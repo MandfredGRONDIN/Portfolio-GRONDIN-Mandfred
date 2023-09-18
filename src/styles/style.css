@@ -270,10 +270,10 @@ h1 {
 .fa-x {
    position: absolute;
    z-index: 1;
-   color: black;
+   color: white;
    background: none;
-   right: -15px;
-   top: -20px;
+   right: 15px;
+   top: 15px;
    font-size: 24px;
 }
 

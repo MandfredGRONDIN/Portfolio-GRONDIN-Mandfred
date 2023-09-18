@@ -14,7 +14,7 @@ export default function About() {
                      <span>Nom :</span> Grondin
                   </p>
                   <p>
-                     <span>Age :</span> 27ans
+                     <span>Age :</span> 28ans
                   </p>
                   <p>
                      <span>Téléphone :</span> 06.95.09.32.23
