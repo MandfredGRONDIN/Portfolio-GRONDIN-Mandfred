@@ -92,5 +92,45 @@
 		"description": "Créer une application web de location immobilière avec React",
 		"lien" : "https://github.com/MandfredGRONDIN/kasa",
 		"information" : ["Initialiser une application avec Create React App","Configurer la navigation entre les pages de l'application avec React Router","Développer des éléments de l'interface d'un site web grâce à des composants React"]
+	},
+    {
+		"id": "7",
+		"title": "Saline Academy",
+		"cover": "https://i.ibb.co/GWM4zQH/Capture-d-cran-2023-09-18-112904.png",
+		"pictures": ["https://i.ibb.co/BGzKq3g/catalogue.png",
+		"https://i.ibb.co/bBHpSdh/accueil.png",
+		"https://i.ibb.co/28ZphRy/Changement-de-langue.png",
+		"https://i.ibb.co/0mq7VtH/gestion.png",
+		"https://i.ibb.co/82wJFV1/gestion-Langue.png",
+		"https://i.ibb.co/NVm5Kk3/masterclass.png",
+		"https://i.ibb.co/GWM4zQH/Capture-d-cran-2023-09-18-112904.png"
+		],
+		"description": "Concevoir une application de gestion de contenus vidéos en PHP",
+		"lien" : "https://github.com/MandfredGRONDIN/kasa",
+		"information" : ["Concevoir une application de gestion de contenus vidéos qui permets aux utilisateur de stocker, d'organiser et de partager des vidéos, ainsi que des contenus éditoriaux associés tels que des descriptions, des biographies, des sous-titres"]
+	},
+	{
+		"id": "8",
+		"title": "Groupomania",
+		"cover": "https://i.ibb.co/zHwhPM2/icon-left-font-monochrome-black.png",
+		"pictures": ["https://i.ibb.co/3z7zSB6/Login.png",
+        "https://i.ibb.co/4JZVpqG/Register.png",
+        "https://i.ibb.co/BzYxf75/Home.png",
+        "https://i.ibb.co/ftm4JyQ/Create-Post.png",
+        "https://i.ibb.co/F63p1ny/After-Post-Created.png",
+        "https://i.ibb.co/NrW8s1Y/Comment-Post.png",
+        "https://i.ibb.co/smjC1FC/Modify-Post.png",
+        "https://i.ibb.co/jHxMqdv/Post-Someone-Else.png",
+        "https://i.ibb.co/Jnc5hP2/Modify-Comment-we-can-and-can-t.png",
+        "https://i.ibb.co/dL4Vx06/Modify-Comment.png",
+        "https://i.ibb.co/wpjX011/Profile.png"
+	],
+	"description": "Création d'un réseau social avec React",
+	"lien" : "https://github.com/MandfredGRONDIN/kasa",
+	"information" : ["Authentifier un utilisateur et maintenir sa session",
+        "Implémenter un stockage de données sécurisée en utilisant une base de données",
+        "Développer l'interface d'un site web grâce à React",
+        "Création d'un système de messagerie"
+    ]
 	}
 ]

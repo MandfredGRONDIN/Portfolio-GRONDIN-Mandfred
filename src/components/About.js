@@ -31,7 +31,7 @@ export default function About() {
                      <span>Nationalité :</span> Français
                   </p>
                   <p>
-                     <span>Adresse :</span> Nîmes
+                     <span>Adresse :</span> 30800 Saint-gilles
                   </p>
                   <p>
                      <span>Email :</span> mandfred974@hotmail.fr
