@@ -46,8 +46,8 @@ export default function ProjetEnCours() {
             </span>
          </div>
          <h3 className="text-align-center">
-            <span className="color-secondary">GROUPOMANIA</span> Création d'un
-            réseau social
+            <span className="color-secondary">GameQuestMate</span> Création d'un
+            site de blindtest et de recherche de mate
          </h3>
          <div className="projetEnCour__info text-align-center">
             {infos.map((info, key) => (

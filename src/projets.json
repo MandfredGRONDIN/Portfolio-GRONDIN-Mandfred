@@ -1,136 +1,198 @@
 [
 	{
+		"id": "9",
+		"title": "Symforum",
+		"cover": "https://i.ibb.co/zHwhPM2/icon-left-font-monochrome-black.png",
+		"pictures": [
+			"https://i.ibb.co/3z7zSB6/Login.png",
+			"https://i.ibb.co/wpjX011/Profile.png"
+		],
+		"description": "Création d'un forum avec symfony",
+		"lien": "https://github.com/MandfredGRONDIN/Symforum",
+		"information": [
+			"Authentifier un utilisateur et maintenir sa session",
+			"Gestion des utilisateurs",
+			"Gestion des rôles",
+			"gestion des catégories",
+			"Gestion des boards/topic/messages",
+			"Gestion d'image"
+		]
+	},
+	{
 		"id": "8",
 		"title": "Groupomania",
 		"cover": "https://i.ibb.co/zHwhPM2/icon-left-font-monochrome-black.png",
-		"pictures": ["https://i.ibb.co/3z7zSB6/Login.png",
-        "https://i.ibb.co/4JZVpqG/Register.png",
-        "https://i.ibb.co/BzYxf75/Home.png",
-        "https://i.ibb.co/ftm4JyQ/Create-Post.png",
-        "https://i.ibb.co/F63p1ny/After-Post-Created.png",
-        "https://i.ibb.co/NrW8s1Y/Comment-Post.png",
-        "https://i.ibb.co/smjC1FC/Modify-Post.png",
-        "https://i.ibb.co/jHxMqdv/Post-Someone-Else.png",
-        "https://i.ibb.co/Jnc5hP2/Modify-Comment-we-can-and-can-t.png",
-        "https://i.ibb.co/dL4Vx06/Modify-Comment.png",
-        "https://i.ibb.co/wpjX011/Profile.png"
-	],
-	"description": "Création d'un réseau social avec React",
-	"lien" : "https://github.com/MandfredGRONDIN/kasa",
-	"information" : ["Authentifier un utilisateur et maintenir sa session",
-        "Implémenter un stockage de données sécurisée en utilisant une base de données",
-        "Développer l'interface d'un site web grâce à React",
-        "Création d'un système de messagerie"
-    ]
+		"pictures": [
+			"https://i.ibb.co/3z7zSB6/Login.png",
+			"https://i.ibb.co/4JZVpqG/Register.png",
+			"https://i.ibb.co/BzYxf75/Home.png",
+			"https://i.ibb.co/ftm4JyQ/Create-Post.png",
+			"https://i.ibb.co/F63p1ny/After-Post-Created.png",
+			"https://i.ibb.co/NrW8s1Y/Comment-Post.png",
+			"https://i.ibb.co/smjC1FC/Modify-Post.png",
+			"https://i.ibb.co/jHxMqdv/Post-Someone-Else.png",
+			"https://i.ibb.co/Jnc5hP2/Modify-Comment-we-can-and-can-t.png",
+			"https://i.ibb.co/dL4Vx06/Modify-Comment.png",
+			"https://i.ibb.co/wpjX011/Profile.png"
+		],
+		"description": "Création d'un réseau social avec React",
+		"lien": "https://github.com/MandfredGRONDIN/GameQuestMate",
+		"information": [
+			"Authentifier un utilisateur et maintenir sa session",
+			"Implémenter un stockage de données sécurisée en utilisant une base de données",
+			"Développer l'interface d'un site web grâce à React",
+			"Création d'un système de messagerie"
+		]
 	},
 	{
 		"id": "7",
 		"title": "Saline Academy",
 		"cover": "https://i.ibb.co/GWM4zQH/Capture-d-cran-2023-09-18-112904.png",
-		"pictures": ["https://i.ibb.co/BGzKq3g/catalogue.png",
-		"https://i.ibb.co/bBHpSdh/accueil.png",
-		"https://i.ibb.co/28ZphRy/Changement-de-langue.png",
-		"https://i.ibb.co/0mq7VtH/gestion.png",
-		"https://i.ibb.co/82wJFV1/gestion-Langue.png",
-		"https://i.ibb.co/NVm5Kk3/masterclass.png",
-		"https://i.ibb.co/GWM4zQH/Capture-d-cran-2023-09-18-112904.png"
+		"pictures": [
+			"https://i.ibb.co/BGzKq3g/catalogue.png",
+			"https://i.ibb.co/bBHpSdh/accueil.png",
+			"https://i.ibb.co/28ZphRy/Changement-de-langue.png",
+			"https://i.ibb.co/0mq7VtH/gestion.png",
+			"https://i.ibb.co/82wJFV1/gestion-Langue.png",
+			"https://i.ibb.co/NVm5Kk3/masterclass.png",
+			"https://i.ibb.co/GWM4zQH/Capture-d-cran-2023-09-18-112904.png"
 		],
 		"description": "Concevoir une application de gestion de contenus vidéos en PHP",
-		"lien" : "https://github.com/MandfredGRONDIN/kasa",
-		"information" : ["Concevoir une application de gestion de contenus vidéos qui permets aux utilisateur de stocker, d'organiser et de partager des vidéos, ainsi que des contenus éditoriaux associés tels que des descriptions, des biographies, des sous-titres"]
+		"lien": "https://github.com/MandfredGRONDIN/kasa",
+		"information": [
+			"Concevoir une application de gestion de contenus vidéos qui permets aux utilisateur de stocker, d'organiser et de partager des vidéos, ainsi que des contenus éditoriaux associés tels que des descriptions, des biographies, des sous-titres"
+		]
 	},
 	{
 		"id": "6",
 		"title": "Kasa",
 		"cover": "https://i.ibb.co/sbwFyXh/Kasa.png",
-		"pictures": ["https://i.ibb.co/ykVT0L4/Home.png",
-		"https://i.ibb.co/zhd9HTq/Home-Mobile.png",
-		"https://i.ibb.co/RvTd2pM/FLogement.png",
-		"https://i.ibb.co/qd6P8Ry/FLogement-Mobile.png",
-		"https://i.ibb.co/1TH1Wd9/about.png",
-		"https://i.ibb.co/yq5zcKW/About-Mobile.png",
-		"https://i.ibb.co/LCTSyND/Drop.png",
-		"https://i.ibb.co/NZmHJ37/error.png",
-		"https://i.ibb.co/HVpCqhK/error-Mobile.png"
+		"pictures": [
+			"https://i.ibb.co/ykVT0L4/Home.png",
+			"https://i.ibb.co/zhd9HTq/Home-Mobile.png",
+			"https://i.ibb.co/RvTd2pM/FLogement.png",
+			"https://i.ibb.co/qd6P8Ry/FLogement-Mobile.png",
+			"https://i.ibb.co/1TH1Wd9/about.png",
+			"https://i.ibb.co/yq5zcKW/About-Mobile.png",
+			"https://i.ibb.co/LCTSyND/Drop.png",
+			"https://i.ibb.co/NZmHJ37/error.png",
+			"https://i.ibb.co/HVpCqhK/error-Mobile.png"
 		],
 		"description": "Créer une application web de location immobilière avec React",
-		"lien" : "https://github.com/MandfredGRONDIN/kasa",
-		"information" : ["Initialiser une application avec Create React App","Configurer la navigation entre les pages de l'application avec React Router","Développer des éléments de l'interface d'un site web grâce à des composants React"]
+		"lien": "https://github.com/MandfredGRONDIN/kasa",
+		"information": [
+			"Initialiser une application avec Create React App",
+			"Configurer la navigation entre les pages de l'application avec React Router",
+			"Développer des éléments de l'interface d'un site web grâce à des composants React"
+		]
 	},
 	{
 		"id": "5",
 		"title": "Piiquante",
 		"cover": "https://i.ibb.co/pXp8D8k/Piiquante.png",
-		"pictures": ["https://i.ibb.co/HXVD1CD/Acceuil.png",
-		"https://i.ibb.co/SBP2Ztt/AddSauce.png",
-		"https://i.ibb.co/nzsKSRG/Ajouter.png",
-		"https://i.ibb.co/LnyM836/Controllers.png",
-		"https://i.ibb.co/Hq4LhCq/Like.png",
-		"https://i.ibb.co/QfKR4fS/Login.png",
-		"https://i.ibb.co/DGmBHdy/Middleware-auth.png",
-		"https://i.ibb.co/Y7L59BP/Modify.png",
-		"https://i.ibb.co/bKGwGCB/Multer.png",
-		"https://i.ibb.co/c1pB6yJ/Sauce.png"],
+		"pictures": [
+			"https://i.ibb.co/HXVD1CD/Acceuil.png",
+			"https://i.ibb.co/SBP2Ztt/AddSauce.png",
+			"https://i.ibb.co/nzsKSRG/Ajouter.png",
+			"https://i.ibb.co/LnyM836/Controllers.png",
+			"https://i.ibb.co/Hq4LhCq/Like.png",
+			"https://i.ibb.co/QfKR4fS/Login.png",
+			"https://i.ibb.co/DGmBHdy/Middleware-auth.png",
+			"https://i.ibb.co/Y7L59BP/Modify.png",
+			"https://i.ibb.co/bKGwGCB/Multer.png",
+			"https://i.ibb.co/c1pB6yJ/Sauce.png"
+		],
 		"description": "Construire une API sécurisée pour une application d'avis gastronomiques",
-		"lien" : "https://github.com/MandfredGRONDIN/P5-Openclassroom",
-		"information":["Stocker des données de manière sécurisée","Mettre en œuvre des opérations CRUD de manière sécurisée","Implémenter un modèle logique de données conformément à la réglementation"]
+		"lien": "https://github.com/MandfredGRONDIN/P5-Openclassroom",
+		"information": [
+			"Stocker des données de manière sécurisée",
+			"Mettre en œuvre des opérations CRUD de manière sécurisée",
+			"Implémenter un modèle logique de données conformément à la réglementation"
+		]
 	},
 	{
 		"id": "4",
 		"title": "Kanap",
 		"cover": "https://i.ibb.co/mbFdbWH/Kanap.png",
-		"pictures": ["https://i.ibb.co/jT4Y75T/Acceuil.png",
-		"https://i.ibb.co/gtPdnbQ/Input.png",
-		"https://i.ibb.co/RNn2FsS/Plan-de-test.png",
-		"https://i.ibb.co/d4gh9YQ/Qty.png",
-		"https://i.ibb.co/nLLvRdL/Qty2.png",
-		"https://i.ibb.co/D8Nnc68/form.png",
-		"https://i.ibb.co/xDR0cpg/regEx.png",
-		"https://i.ibb.co/QPNttVB/validation-name.png"],
+		"pictures": [
+			"https://i.ibb.co/jT4Y75T/Acceuil.png",
+			"https://i.ibb.co/gtPdnbQ/Input.png",
+			"https://i.ibb.co/RNn2FsS/Plan-de-test.png",
+			"https://i.ibb.co/d4gh9YQ/Qty.png",
+			"https://i.ibb.co/nLLvRdL/Qty2.png",
+			"https://i.ibb.co/D8Nnc68/form.png",
+			"https://i.ibb.co/xDR0cpg/regEx.png",
+			"https://i.ibb.co/QPNttVB/validation-name.png"
+		],
 		"description": "Construire un site e-commerce en Javascript",
-		"information":["Valider des données issues de sources externes","Interagir avec un web service avec JavaScript","Gérer des évéments JavaScript","Créer un plan de test pour une application"]
+		"information": [
+			"Valider des données issues de sources externes",
+			"Interagir avec un web service avec JavaScript",
+			"Gérer des évéments JavaScript",
+			"Créer un plan de test pour une application"
+		]
 	},
 	{
 		"id": "3",
 		"title": "La Panthère",
 		"cover": "https://i.ibb.co/pdswq5G/La-Panth-re.png",
-		"pictures": ["https://i.ibb.co/rcH2FQF/Chargement.png",
-		"https://i.ibb.co/MVRYry7/Compression-d-image.png",
-		"https://i.ibb.co/5vGbyR7/Index-Mobile.png",
-		"https://i.ibb.co/LYPZjrf/indexPc.png",
-		"https://i.ibb.co/qkBvym8/Contact-Mobile.png",
-		"https://i.ibb.co/9rn1QJd/Contact-Pc.png"
-	],
+		"pictures": [
+			"https://i.ibb.co/rcH2FQF/Chargement.png",
+			"https://i.ibb.co/MVRYry7/Compression-d-image.png",
+			"https://i.ibb.co/5vGbyR7/Index-Mobile.png",
+			"https://i.ibb.co/LYPZjrf/indexPc.png",
+			"https://i.ibb.co/qkBvym8/Contact-Mobile.png",
+			"https://i.ibb.co/9rn1QJd/Contact-Pc.png"
+		],
 		"description": "Optimiser un site web existant",
-		"lien" : "https://github.com/MandfredGRONDIN/Projet-4-OpenClassroom",
-		"information":["Optimisez la taille et la vitesse d'un site web", "Optimiser le référencement d'un site web","Assurer l'accessibilité d'un site web","Réaliser une recherche des bonnes pratiques en développement web","Ecrire un code HTML et CSS maintenable"]
+		"lien": "https://github.com/MandfredGRONDIN/Projet-4-OpenClassroom",
+		"information": [
+			"Optimisez la taille et la vitesse d'un site web",
+			"Optimiser le référencement d'un site web",
+			"Assurer l'accessibilité d'un site web",
+			"Réaliser une recherche des bonnes pratiques en développement web",
+			"Ecrire un code HTML et CSS maintenable"
+		]
 	},
 	{
 		"id": "2",
 		"title": "Ohmyfood",
 		"cover": "https://i.ibb.co/FBv2GqJ/ohmyfood.png",
-		"pictures": ["https://i.ibb.co/cT4fDXv/Accueil-PC.png",
-		"https://i.ibb.co/QpD5pK4/Accueil.png",
-		"https://i.ibb.co/zh3fpZV/Menu-la-fran-aise-PC.png",
-		"https://i.ibb.co/47nFzDN/Menu-la-fran-aise.png",
-		"https://i.ibb.co/6JNShpC/Menu-La-note-enchant-e-PC.png",
-		"https://i.ibb.co/rmWpqwR/Menu-La-note-enchant-e.png",
-		"https://i.ibb.co/4KwNWP3/Menu-La-palette-du-go-t-PC.png",
-		"https://i.ibb.co/R3bqsXj/Menu-La-palette-du-go-t.png",
-		"https://i.ibb.co/HXkj7wH/Menu-Le-d-lice-des-sens-PC.png",
-		"https://i.ibb.co/SnmgpzK/Menu-Le-d-lice-des-sens.png]"],
+		"pictures": [
+			"https://i.ibb.co/cT4fDXv/Accueil-PC.png",
+			"https://i.ibb.co/QpD5pK4/Accueil.png",
+			"https://i.ibb.co/zh3fpZV/Menu-la-fran-aise-PC.png",
+			"https://i.ibb.co/47nFzDN/Menu-la-fran-aise.png",
+			"https://i.ibb.co/6JNShpC/Menu-La-note-enchant-e-PC.png",
+			"https://i.ibb.co/rmWpqwR/Menu-La-note-enchant-e.png",
+			"https://i.ibb.co/4KwNWP3/Menu-La-palette-du-go-t-PC.png",
+			"https://i.ibb.co/R3bqsXj/Menu-La-palette-du-go-t.png",
+			"https://i.ibb.co/HXkj7wH/Menu-Le-d-lice-des-sens-PC.png",
+			"https://i.ibb.co/SnmgpzK/Menu-Le-d-lice-des-sens.png]"
+		],
 		"description": "Dynamiser une page web avec des animations CSS",
 		"lien": "https://github.com/MandfredGRONDIN/Ohmyfood-Projet",
-		"information" : ["Mettre en place une structure de navigation pour un site web","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en œuvre des effets CSS graphiques avancés","Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"]
+		"information": [
+			"Mettre en place une structure de navigation pour un site web",
+			"Mettre en place son environnement Front-End",
+			"Assurer la cohérence graphique d'un site web",
+			"Mettre en œuvre des effets CSS graphiques avancés",
+			"Utiliser un système de gestion de versions pour le suivi du projet et son hébergement"
+		]
 	},
 	{
 		"id": "1",
 		"title": "Booki",
 		"cover": "https://i.ibb.co/3mgGgtM/Booki.png",
-		"pictures": ["https://i.ibb.co/9W3ZBy5/Booki-Pc.png",
-		"https://i.ibb.co/2dCLvKJ/Version-mobile.png"],
+		"pictures": [
+			"https://i.ibb.co/9W3ZBy5/Booki-Pc.png",
+			"https://i.ibb.co/2dCLvKJ/Version-mobile.png"
+		],
 		"description": "Transformer une maquette en site web avec HTML&CSS",
 		"lien": "https://github.com/MandfredGRONDIN/Projet-2-HTML",
-		"information":["Implémenter une interface responsive","Intégrer du contenu conformément à une maquette"]
+		"information": [
+			"Implémenter une interface responsive",
+			"Intégrer du contenu conformément à une maquette"
+		]
 	}
 ]
